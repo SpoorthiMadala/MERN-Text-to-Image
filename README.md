@@ -1,33 +1,35 @@
-# MERN-Text-to-Image
+# AI Image Generator (MERN + AI) 
 
-A full-stack web application that lets users generate images from text prompts using an AI image-generation API, built with the **MERN stack** and a modern reactive UI.
+A simple and powerful full-stack **AI Image Generator** built using the **MERN stack**, allowing users to enter text prompts and instantly generate AI-powered images. This project integrates a text-to-image model (e.g., OpenAI, Stability) on top of a modern MERN architecture.
 
 ---
 
-##  Features
+## 🚀 Features
 
-- ✨ **Text-to-Image Generation** — Users input text prompts, and the backend generates an image using an AI model (e.g. Stable Diffusion / DALL·E-like API).  
-- 📚 **User Accounts & Authentication** — Sign up / log in to save your generated images and track history.  
-- ☁️ **Image Storage** — Generated images are stored via a cloud storage service (e.g. Cloudinary) for easy retrieval and efficient hosting.  
-- 🖼️ **Gallery / Feed** — A community or personal feed where users can view previously generated images.  
-- 📥 **Download & Share** — Users can download or share their generated images.  
-- 🌐 **Responsive & Modern UI** — Built with React, utilising a clean design and responsive layout.  
-- 🔒 **Secure Backend** — Express.js + MongoDB for storage, secure routes, and proper API design.
+- 🧠 **AI Text-to-Image Generation** using OpenAI / Stability API  
+- ⚡ **Instant Image Rendering** based on user prompts  
+- 🎨 **Modern UI** with React  
+- 📤 **Image Storage** via Cloudinary or local storage (optional)  
+- 📚 **Prompt History / Gallery** (optional depending on version)  
+- 🟢 No login or authentication required  
+- 🗂️ Clean MERN code structure
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**  
+### Frontend
 - React  
-- CSS / Tailwind (or any UI library you prefer)  
-- Axios or fetch for HTTP calls  
+- CSS / Tailwind  
+- Axios  
 
-**Backend**  
-- Node.js + Express  
-- MongoDB + Mongoose  
-- Cloudinary (or equivalent) for image storage  
-- AI image-generation API (e.g. Stable Diffusion, DALL·E, etc.)  
+### Backend
+- Node.js  
+- Express.js  
+- OpenAI / Stability SDK  
+
+### Database (Optional)
+- MongoDB (for saving images & prompts)
 
 ---
 
